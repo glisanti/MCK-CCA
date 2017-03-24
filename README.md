@@ -72,5 +72,5 @@ year = {2014}, }
 [3] G. Lisanti, I. Masi, A. D. Bagdanov, and A. Del Bimbo, "Person Re-identification by Iterative Re-weighted Sparse Ranking", IEEE Transactions on Pattern Analysis and Machine Intelligence 2014.
 
 ## License
-MCK-CCA code is Copyright (c) 2014-2017 of Giusppe Lisanti and Iacopo Masi and Svebor Karaman *giuseppe.lisanti@unifi.it, iacopo.masi@usc.edu, svebor.karaman@columbia.edu*.
+MCK-CCA code is Copyright (c) 2014-2017 of Giusppe Lisanti and Iacopo Masi and Svebor Karaman *giuseppe.lisanti@unifi.it, iacopoma@usc.edu, svebor.karaman@columbia.edu*.
 [Media Integration and Communication Center (MICC), University of Florence.](http://www.micc.unifi.it/)
