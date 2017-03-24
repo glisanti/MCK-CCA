@@ -39,7 +39,7 @@ For more information on the person representation used see [1].
 
 ## Changelog
 
-* 1.0 Jan. 2017 - Initial Release
+* 1.0 March. 2017 - Initial Release
 
 ## Citation
 
