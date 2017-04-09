@@ -69,7 +69,7 @@ year = {2014}, }
 
 ## Troubleshooting
 
-The system has been tested on Linux and Mac only. We expect it should run smoothly on Windows with small effort.
+The system has been tested on Linux and Mac only. We expect it should run smoothly on Windows with a small effort.
 
 ## References
 
