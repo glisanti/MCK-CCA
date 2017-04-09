@@ -67,6 +67,10 @@ booktitle = {Eighth ACM/IEEE International Conference on Distributed Smart Camer
 year = {2014}, }
 ``` 
 
+## Troubleshooting
+
+The system has been tested on Linux and Mac only. We expect it should run smoothly on Windows with some effort.
+
 ## References
 
 [1] G. Lisanti , S. Karaman, I. Masi, Multi Channel-Kernel Canonical Correlation Analysis for Cross-View Person Re-Identification, ACM Transactions on Multimedia Computing, Communications and Applications (TOMM) , 2017.
