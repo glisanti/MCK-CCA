@@ -17,6 +17,10 @@ The code uses the following software and data to run:
 
 **Jan. 2017: The code will download and compile all the necessary files. We are using an approximated, customized version of the KCCA package from Hardoon, which original license is non-commercial.**
 
+MATLAB should be properly configured to compile MEX files, it can be as easy as running the following command in MATLAB:
+
+	>> mex -setup
+
 ## Demo Example
 To run our code just run _Demo_MCKCCA.m_ 	
 and you should see something like this:
