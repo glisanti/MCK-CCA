@@ -12,7 +12,7 @@ The code uses the following software and data to run:
 
 1. [MATLAB (Windows, Unix version is the same)](http://www.mathworks.com/products/matlab/)
 2. [An approximated version of Dr. Hardoon's KCCA code package.](http://www.davidroihardoon.com/) (4.3 KB)
-3. [Descriptors (PRID)](http://www.micc.unifi.it/lisanti/downloads/mck-ccareid_data.zip) (152 MB)
+3. [Descriptors (PRID)](https://www.dropbox.com/s/y616y2ygjf2ir3b/mck-ccareid_data.zip?dl=0) (152 MB)
 4. [Logistic Regression (liblinear)](https://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
 **Jan. 2017: The code will download and compile all the necessary files. We are using an approximated, customized version of the KCCA package from Hardoon, which original license is non-commercial.**
@@ -80,5 +80,5 @@ The system has been tested on Linux and Mac only. We expect it should run smooth
 [3] G. Lisanti, I. Masi, A. D. Bagdanov, and A. Del Bimbo, "Person Re-identification by Iterative Re-weighted Sparse Ranking", IEEE Transactions on Pattern Analysis and Machine Intelligence 2014.
 
 ## License
-MCK-CCA code is Copyright (c) 2014-2017 of Giusppe Lisanti and Iacopo Masi and Svebor Karaman *giuseppe.lisanti@unifi.it, iacopoma@usc.edu, svebor.karaman@columbia.edu*.
+MCK-CCA code is Copyright (c) 2014-2017 of Giusppe Lisanti and Iacopo Masi and Svebor Karaman *giuseppe.lisanti@unipv.it, iacopoma@usc.edu, svebor.karaman@columbia.edu*.
 [Media Integration and Communication Center (MICC), University of Florence.](http://www.micc.unifi.it/)
