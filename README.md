@@ -12,7 +12,7 @@ The code uses the following software and data to run:
 
 1. [MATLAB (Windows, Unix version is the same)](http://www.mathworks.com/products/matlab/)
 2. [An approximated version of Dr. Hardoon's KCCA code package.](http://www.davidroihardoon.com/) (4.3 KB)
-3. [Descriptors (PRID)](https://www.dropbox.com/s/y616y2ygjf2ir3b/mck-ccareid_data.zip?dl=0) (152 MB)
+3. [Descriptors (PRID)](https://drive.google.com/file/d/1gK-ts58_J30qYXJXZ_IQgWhNHIPYdJ42/view?usp=sharing) (152 MB)
 4. [Logistic Regression (liblinear)](https://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
 **Jan. 2017: The code will download and compile all the necessary files. We are using an approximated, customized version of the KCCA package from Hardoon, which original license is non-commercial.**
