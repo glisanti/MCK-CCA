@@ -25,7 +25,18 @@ end
 %% Downloading and Unzipping and Compiling LibLinear
 if ~exist('lib/liblinear/','dir')
     disp('>Downloading and Unzipping liblinear');
-    untar('http://www.csie.ntu.edu.tw/~cjlin/cgi-bin/liblinear.cgi?+http://www.csie.ntu.edu.tw/~cjlin/liblinear+tar.gz');
+    url_liblinear = 'http://www.csie.ntu.edu.tw/~cjlin/cgi-bin/liblinear.cgi?+http://www.csie.ntu.edu.tw/~cjlin/liblinear+tar.gz';
+    try
+        untar(url_liblinear);
+    catch ME
+        if strcmp(ME.identifier,'MATLAB:untar:invalidTarFile')
+            options = weboptions('CertificateFilename', '');
+            outfilename = websave('./liblinear.tgz',url_liblinear,options);
+            untar(outfilename);
+        else
+            rethrow(ME)
+        end
+    end
     list=dir('liblinear*');
     movefile(list(1).name,'lib/liblinear')
     disp('>liblinear ready.')
@@ -38,7 +49,18 @@ end
 %% Downloading the data
 if ~exist('data/PRID_trials.mat','file')
     disp('>Downloading and Unzipping Splits and Descriptors');
-    unzip('http://www.micc.unifi.it/lisanti/downloads/mck-ccareid_data.zip');
+    url_data = 'http://www.micc.unifi.it/lisanti/downloads/mck-ccareid_data.zip';
+    try
+        unzip(url_data);
+    catch ME
+        if strcmp(ME.identifier,'MATLAB:unzip:invalidZipFile')
+            options = weboptions('CertificateFilename', '');
+            outfilename = websave('./mck-ccareid_data.zip',url_data,options);
+            unzip(outfilename);
+        else
+            rethrow(ME)
+        end
+    end
     disp('>Splits and Descriptors ready.')
 end
 
