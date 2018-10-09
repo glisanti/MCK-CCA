@@ -120,7 +120,7 @@ for nt=1:nTrial
                         
            %% Centering KCCA Test
             center_kcca
-                        
+            
            %% Projecting test
             tstart_proj = tic;
             test_b_ker_proj = test_b_ker*(Wx.*repmat(r',size(Wx,1),1));

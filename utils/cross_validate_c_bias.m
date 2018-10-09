@@ -32,6 +32,8 @@ X = X(:);
 Y = Y(:);
 
 parfor i_bb=1:length(X)
+    % Make sure liblinear is in each worker path
+    addpath('lib/liblinear/matlab');
     bb = Y(i_bb);
     cc = X(i_bb);
     %% First pass
