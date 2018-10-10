@@ -48,21 +48,20 @@ if ~exist('data','dir')
 end
 %% Downloading the data
 if ~exist('data/PRID_trials.mat','file')
-    disp('Please manually download the trials from the link in the README')
-    %disp('>Downloading and Unzipping Splits and Descriptors');
-    %url_data='https://www.dropbox.com/s/ch9g4bymqyp7hi2/mck-ccareid_data.zip?dl=1';
-    %try
-    %    unzip(url_data);
-    %catch ME
-    %    if strcmp(ME.identifier,'MATLAB:unzip:invalidZipFile')
-    %        options = weboptions('CertificateFilename', '');
-    %        outfilename = websave('./mck-ccareid_data.zip',url_data,options);
-    %        unzip(outfilename);
-    %    else
-    %        rethrow(ME)
-    %    end
-    %end
-    %disp('>Splits and Descriptors ready.')
+    disp('>Downloading and Unzipping Splits and Descriptors');
+    url_data='https://www.dropbox.com/s/ch9g4bymqyp7hi2/mck-ccareid_data.zip?dl=1';
+    try
+        unzip(url_data);
+    catch ME
+        if strcmp(ME.identifier,'MATLAB:unzip:invalidZipFile')
+            options = weboptions('CertificateFilename', '');
+            outfilename = websave('./mck-ccareid_data.zip',url_data,options);
+            unzip(outfilename);
+        else
+            rethrow(ME)
+        end
+    end
+    disp('>Splits and Descriptors ready.')
 end
 
 addpath('utils/');
