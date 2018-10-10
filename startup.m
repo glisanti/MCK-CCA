@@ -48,7 +48,7 @@ if ~exist('data','dir')
 end
 %% Downloading the data
 if ~exist('data/PRID_trials.mat','file')
-    disp('Please manullay download the data as described in the README online')
+    disp('Please manually download the trials as described in the README and put it in a folder named data')
     %disp('>Downloading and Unzipping Splits and Descriptors');
     %url_data='https://www.dropbox.com/s/ch9g4bymqyp7hi2/mck-ccareid_data.zip?dl=1';
     %try
